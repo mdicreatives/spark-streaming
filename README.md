@@ -19,7 +19,7 @@ Example:
 spark-submit \
 --master local[2] \
 --class com.spark.streaming.scala.SparkStreamingDirectory \
-/home/mdanish/Desktop/codes/Freelancing/spark-streaming-assignment/out/artifacts/spark_streaming_assignment_jar/spark-streaming-assignment.jar \
+/home/user/spark-streaming-assignment/out/artifacts/spark_streaming_assignment_jar/spark-streaming-assignment.jar \
 hdfs://127.0.0.1:9000/spark/input hdfs://127.0.0.1:9000/spark/output/taskA hdfs://127.0.0.1:9000/spark/output/taskB
 
 
